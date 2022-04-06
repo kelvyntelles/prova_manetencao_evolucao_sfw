@@ -1,19 +1,14 @@
 class Jogador:
-    def __init__(self, nome, pontuacaoPartida):
+    def __init__(self, nome):
         self.nome = nome
     
-    def getNomeJogador(self):
+    def getNome(self):
         return self.nome
     
-    def setNomeJogador(self, novoNome):
-        self.nome = novoNome
-    
-
-
-    
-
-    
-    
-    
-
+    def setNome(self, nome):
+        self.nome = nome
         
+    
+
+
+    
